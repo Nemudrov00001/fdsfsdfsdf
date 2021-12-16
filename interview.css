@@ -1,0 +1,49 @@
+.body_hide {
+  opacity: 0;
+  transition: .7s opacity ease-in-out;
+}
+.body_visible {
+  opacity: 1;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-image: url("images/big_data_world_global.jpg");
+ 
+  padding: 10px;
+}
+
+.grid-container a {
+text-decoration: none;
+color: red;
+cursor: default;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50px;
+color: #333 ;
+}
+
+.grid-item a { 
+  color: red;
+  text-decoration: none;
+
+ }
+
+
+
+.grid-item img{
+  border-radius: 20px;
+}
+
+.grid-item:hover {
+  color: red;
+}
